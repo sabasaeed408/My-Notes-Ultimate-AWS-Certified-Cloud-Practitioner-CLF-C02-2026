@@ -1,0 +1,6 @@
+1. Create a user with read-only access to S3.
+Steps
+
+Create a new IAM user.
+Attach the “AmazonS3ReadOnlyAccess” managed policy to the user.
+Verify the user can only view S3 buckets and objects but cannot modify or delete them.
